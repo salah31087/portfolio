@@ -1,0 +1,55 @@
+
+
+
+
+.contact .title{
+    font-family: 'mark pro', sans-serif;
+    font-size: 3rem;
+    line-height: 100%;
+    letter-spacing: -.03em;
+}
+
+.contact .contact-info{
+    color: var(--color-gray);
+    font-family: 'circular', sans-serif;
+    font-size: 2rem;
+    margin-top: 3rem;
+    line-height: 1.4;
+}
+
+.contact .contact-info a{
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+.contact .contact-bottom .title{
+    margin-top: 5rem;
+}
+
+.contact .contact-bottom .subtitle{
+    font-family: 'circular', sans-serif;
+    font-size: 1rem;
+    display: block;
+    line-height: 100%;
+    color: var(--color-gray);
+    position: relative;
+    align-self: flex-start;
+    margin-top: .5rem;
+}
+
+.contact .social-icons{
+    margin-top: 2rem;
+}
+
+.contact .social-icons ul{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.contact .social-icons ul li a{
+    color: var(--color-gray);
+    font-family: 'd-din', sans-serif;
+}
+
+

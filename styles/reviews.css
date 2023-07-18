@@ -1,0 +1,92 @@
+
+
+.reviews{
+    margin: 10rem 0;
+    padding: 7rem 0;
+    background-color: #050810;
+}
+
+.reviews-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.reviews .title {
+    font-family: 'mark pro', sans-serif;
+    font-size: 3rem;
+    line-height: 100%;
+    letter-spacing: -.03em;
+    /* padding-top: 4rem; */
+    color: var(--color-gray);
+}
+
+.reviews .subtitle{
+    font-family: 'circular', sans-serif;
+    font-size: 1rem;
+    display: block;
+    line-height: 100%;
+    color: var(--color-gray);
+    position: relative;
+    align-self: flex-start;
+    margin-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+.reviews-wrapper .row{
+    display: flex;
+    /* column-gap: 1.3rem; */
+    /* overflow-x: hidden; */
+}
+
+.review-card{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #171e2f;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+
+.review-card .review-top{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 4rem;
+}
+
+.review-card .review-top .review-user{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+.review-card .review-top .review-user .name{
+    color: var(--color-gray);
+    opacity: .6;
+    font-family: 'circular', sans-serif;
+    font-size: .7rem;
+}
+
+.review-card .review-top .review-user .username{
+    color: var(--color-gray);
+    opacity: .6;
+    font-family: 'circular', sans-serif;
+    font-size: 1rem;
+}
+
+.review-card .review-top .review-icon ion-icon{
+    color: #6bc5f8;
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+
+.review-bottom{
+    margin-top: 1rem;
+}
+.review-bottom .review-text{
+    color: var(--color-white);
+    font-family: 'circular', sans-serif;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
